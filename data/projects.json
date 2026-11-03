@@ -1,0 +1,460 @@
+[
+  {
+    "slug": "maxihealth-medical-portal",
+    "title": "MaxiHealth - Medical & Healthcare Portal",
+    "categoryIds": [
+      "website-design"
+    ],
+    "summary": "Full-page responsive healthcare platform featuring online doctor appointment scheduling, clinic service directories, department showcases, and patient intake workflows.",
+    "role": "UI/UX Architecture & Responsive Web Development",
+    "technologies": [
+      "Website Design",
+      "UI/UX",
+      "Tailwind CSS",
+      "Next.js",
+      "Responsive Layouts"
+    ],
+    "preview": {
+      "type": "scroll-image",
+      "src": "/projects/maxihealth-medical-portal/full-page.jpg",
+      "alt": "MaxiHealth medical website design full-page scroll preview"
+    },
+    "liveUrl": null,
+    "caseStudyUrl": null,
+    "featured": true
+  },
+  {
+    "slug": "wix-members-2fa-twilio",
+    "title": "Wix Members: 2-Factor Authentication (Twilio)",
+    "categoryIds": [
+      "wix-velo",
+      "auth-security"
+    ],
+    "summary": "High-security two-factor authentication pipeline for Wix Members utilizing Twilio Verify API for SMS and voice token verification.",
+    "role": "Security & Backend Integration",
+    "technologies": [
+      "Wix Velo",
+      "Twilio Verify API",
+      "Node.js",
+      "Authentication"
+    ],
+    "preview": {
+      "type": "video",
+      "src": "/projects/wix-members-2fa-twilio/demo.mp4",
+      "poster": "/projects/wix-members-2fa-twilio/banner.jpg",
+      "alt": "Wix Members 2-Factor Authentication Twilio video demo"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/wix-members-2-factor-authentication-twilio-integration",
+    "caseStudyUrl": null,
+    "featured": true
+  },
+  {
+    "slug": "wix-bulk-validation",
+    "title": "Velo Bulk Data Validation",
+    "categoryIds": [
+      "wix-velo",
+      "cloud-data"
+    ],
+    "summary": "Scalable batch schema validation system ensuring data integrity before bulk ingestion into Wix Data collections.",
+    "role": "Data Engineering & Validation",
+    "technologies": [
+      "Wix Velo",
+      "Wix Data",
+      "Schema Validation",
+      "TypeScript/JS"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/wix-bulk-validation/banner.jpg",
+      "alt": "Bulk Validation preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/bulk-validation",
+    "caseStudyUrl": null,
+    "featured": false
+  },
+  {
+    "slug": "gcp-cloud-trace-integration",
+    "title": "GCP Cloud Trace Integration",
+    "categoryIds": [
+      "wix-velo",
+      "cloud-data"
+    ],
+    "summary": "Distributed latency telemetry and real-time observability connecting Wix backend functions to Google Cloud Trace.",
+    "role": "Cloud Observability & DevOps",
+    "technologies": [
+      "Wix Velo",
+      "Google Cloud Trace",
+      "APM Telemetry",
+      "REST APIs"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/gcp-cloud-trace-integration/banner.jpg",
+      "alt": "GCP Cloud Trace preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/gcp-cloud-trace-integration",
+    "caseStudyUrl": null,
+    "featured": true
+  },
+  {
+    "slug": "google-drive-integration",
+    "title": "Google Drive Automated Integration",
+    "categoryIds": [
+      "wix-velo",
+      "cloud-data"
+    ],
+    "summary": "Automated file exchange pipeline linking user-submitted media in Wix forms directly with Google Drive enterprise storage.",
+    "role": "API Integration Engineer",
+    "technologies": [
+      "Wix Velo",
+      "Google Drive API",
+      "OAuth2",
+      "Cloud Storage"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/google-drive-integration/banner.jpg",
+      "alt": "Google Drive Integration preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/google-drive-integration",
+    "caseStudyUrl": null,
+    "featured": false
+  },
+  {
+    "slug": "google-sheets-integration",
+    "title": "Google Sheets Two-Way Sync",
+    "categoryIds": [
+      "wix-velo",
+      "cloud-data"
+    ],
+    "summary": "Real-time bidirectional synchronization between Wix Data collections and Google Sheets for rapid business reporting.",
+    "role": "Full-Stack Data Sync",
+    "technologies": [
+      "Wix Velo",
+      "Google Sheets API",
+      "Webhooks",
+      "JSON"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/google-sheets-integration/banner.jpg",
+      "alt": "Google Sheets Integration preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/google-sheets-integration",
+    "caseStudyUrl": null,
+    "featured": false
+  },
+  {
+    "slug": "wix-http-functions-hmac",
+    "title": "Wix HTTP Functions: HMAC Security",
+    "categoryIds": [
+      "wix-velo",
+      "auth-security"
+    ],
+    "summary": "Cryptographic HMAC signature verification and payload tamper protection for incoming and outgoing Wix HTTP webhooks.",
+    "role": "API Security Engineering",
+    "technologies": [
+      "Wix Velo",
+      "HMAC-SHA256",
+      "Crypto",
+      "HTTP Webhooks"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/wix-http-functions-hmac/banner.jpg",
+      "alt": "HMAC Security preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/wix-http-functions-hmac-authentication",
+    "caseStudyUrl": null,
+    "featured": false
+  },
+  {
+    "slug": "wix-members-twilio-otp",
+    "title": "Wix Members: Twilio OTP Verification",
+    "categoryIds": [
+      "wix-velo",
+      "auth-security"
+    ],
+    "summary": "Passwordless one-time passcode (OTP) verification system over SMS to protect user registrations and sensitive portal operations.",
+    "role": "Full-Stack Security",
+    "technologies": [
+      "Wix Velo",
+      "Twilio Messaging",
+      "OTP Auth",
+      "Node.js"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/wix-members-twilio-otp/banner.jpg",
+      "alt": "Twilio OTP preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/wix-members-twilio-otp",
+    "caseStudyUrl": null,
+    "featured": false
+  },
+  {
+    "slug": "pipedrive-crm-integration",
+    "title": "Pipedrive CRM Lead Pipeline",
+    "categoryIds": [
+      "wix-velo",
+      "crm-marketing"
+    ],
+    "summary": "Automated deal and lead creation pipeline feeding Wix Form inquiries directly into Pipedrive sales stages.",
+    "role": "CRM Integration Engineer",
+    "technologies": [
+      "Wix Velo",
+      "Pipedrive API",
+      "REST Endpoints",
+      "Webhooks"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/pipedrive-crm-integration/banner.jpg",
+      "alt": "Pipedrive CRM preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/pipedrive-integration",
+    "caseStudyUrl": null,
+    "featured": false
+  },
+  {
+    "slug": "salesforce-crm-integration",
+    "title": "Salesforce Enterprise Integration",
+    "categoryIds": [
+      "wix-velo",
+      "crm-marketing"
+    ],
+    "summary": "Enterprise-grade bidirectional sync connecting Wix customer data and booking records to Salesforce CRM objects.",
+    "role": "Enterprise Solutions Architect",
+    "technologies": [
+      "Wix Velo",
+      "Salesforce REST API",
+      "OAuth2",
+      "Data Mapping"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/salesforce-crm-integration/banner.jpg",
+      "alt": "Salesforce Integration preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/salesforce-integration",
+    "caseStudyUrl": null,
+    "featured": true
+  },
+  {
+    "slug": "sendgrid-custom-notifications",
+    "title": "SendGrid Custom Notifications",
+    "categoryIds": [
+      "wix-velo",
+      "crm-marketing"
+    ],
+    "summary": "High-deliverability transactional notification framework triggering custom SendGrid email templates on system events.",
+    "role": "Backend Notification Systems",
+    "technologies": [
+      "Wix Velo",
+      "SendGrid API",
+      "Email Delivery",
+      "Node.js"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/sendgrid-custom-notifications/banner.jpg",
+      "alt": "SendGrid Notifications preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/send-grid-custom-notification-integration",
+    "caseStudyUrl": null,
+    "featured": false
+  },
+  {
+    "slug": "wix-stores-bringg-logistics",
+    "title": "Wix Stores: Bringg Delivery Logistics",
+    "categoryIds": [
+      "wix-velo",
+      "ecommerce-logistics"
+    ],
+    "summary": "Automated last-mile delivery dispatch and real-time courier tracking integration connecting Wix Stores to Bringg.",
+    "role": "Logistics Systems Engineer",
+    "technologies": [
+      "Wix Velo",
+      "Bringg Delivery API",
+      "Fleet Logistics",
+      "Webhooks"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/wix-stores-bringg-logistics/banner.jpg",
+      "alt": "Bringg Delivery preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/wix-stores-bringg-integration",
+    "caseStudyUrl": null,
+    "featured": false
+  },
+  {
+    "slug": "wix-stores-data-requests",
+    "title": "Wix Stores: GDPR Data Requests",
+    "categoryIds": [
+      "wix-velo",
+      "ecommerce-logistics"
+    ],
+    "summary": "Automated compliance toolkit for customer data export and erasure processing in accordance with GDPR and CCPA regulations.",
+    "role": "Data Privacy & Compliance",
+    "technologies": [
+      "Wix Velo",
+      "GDPR/CCPA",
+      "Data Export",
+      "Wix Stores API"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/wix-stores-data-requests/banner.jpg",
+      "alt": "Data Requests preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/wix-stores-data-requests",
+    "caseStudyUrl": null,
+    "featured": false
+  },
+  {
+    "slug": "wix-stores-lionwheel-dispatch",
+    "title": "Wix Stores: LionWheel Dispatch",
+    "categoryIds": [
+      "wix-velo",
+      "ecommerce-logistics"
+    ],
+    "summary": "Automated route optimization and driver dispatch pipeline syncing Wix Store orders directly into the LionWheel platform.",
+    "role": "Supply Chain & Dispatch Integration",
+    "technologies": [
+      "Wix Velo",
+      "LionWheel API",
+      "Route Optimization",
+      "REST"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/wix-stores-lionwheel-dispatch/banner.jpg",
+      "alt": "LionWheel Dispatch preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/wix-stores-lion-wheel-integration",
+    "caseStudyUrl": null,
+    "featured": false
+  },
+  {
+    "slug": "wix-sql-package",
+    "title": "Wix Velo SQL Database Bridge",
+    "categoryIds": [
+      "wix-velo",
+      "cloud-data"
+    ],
+    "summary": "External SQL database adapter connecting Wix backend logic directly with MySQL, PostgreSQL, and MSSQL enterprise data lakes.",
+    "role": "Database Architect",
+    "technologies": [
+      "Wix Velo",
+      "SQL",
+      "PostgreSQL",
+      "MySQL",
+      "ORM Adapter"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/wix-sql-package/banner.jpg",
+      "alt": "SQL Package preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/sql-package",
+    "caseStudyUrl": null,
+    "featured": true
+  },
+  {
+    "slug": "wix-twitter-x-integration",
+    "title": "Twitter / X Social Feed Integration",
+    "categoryIds": [
+      "wix-velo",
+      "api-integrations"
+    ],
+    "summary": "Server-side integration fetching, caching, and displaying live Twitter/X feeds and engagement metrics on Wix pages.",
+    "role": "API Integration & Caching",
+    "technologies": [
+      "Wix Velo",
+      "Twitter/X API v2",
+      "OAuth 1.0a/2.0",
+      "Caching"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/wix-twitter-x-integration/banner.jpg",
+      "alt": "Twitter Integration preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/twitter-integration",
+    "caseStudyUrl": null,
+    "featured": false
+  },
+  {
+    "slug": "wix-zapier-integration",
+    "title": "Zapier Automated Webhook Bridge",
+    "categoryIds": [
+      "wix-velo",
+      "crm-marketing"
+    ],
+    "summary": "Robust webhook integration connecting Wix site events to 5,000+ third-party cloud apps on Zapier.",
+    "role": "Workflow Automation Architect",
+    "technologies": [
+      "Wix Velo",
+      "Zapier Webhooks",
+      "REST Endpoints",
+      "Automation"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/wix-zapier-integration/banner.jpg",
+      "alt": "Zapier Integration preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/zapier-integration",
+    "caseStudyUrl": null,
+    "featured": false
+  },
+  {
+    "slug": "wix-zoho-crm-integration",
+    "title": "Zoho CRM & Finance Synchronization",
+    "categoryIds": [
+      "wix-velo",
+      "crm-marketing"
+    ],
+    "summary": "Two-way contact and invoice synchronization pipeline connecting Wix Forms and Store transactions directly to Zoho CRM.",
+    "role": "CRM & Finance Systems Integration",
+    "technologies": [
+      "Wix Velo",
+      "Zoho CRM API",
+      "OAuth2",
+      "Data Pipelines"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/wix-zoho-crm-integration/banner.jpg",
+      "alt": "Zoho Integration preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/zoho-integration",
+    "caseStudyUrl": null,
+    "featured": false
+  },
+  {
+    "slug": "wix-zoom-integration",
+    "title": "Zoom Video Meeting Provisioning",
+    "categoryIds": [
+      "wix-velo",
+      "api-integrations"
+    ],
+    "summary": "Automated instant Zoom meeting generation and calendar invite dispatch triggered upon Wix Bookings appointments.",
+    "role": "Unified Communications Developer",
+    "technologies": [
+      "Wix Velo",
+      "Zoom Server-to-Server OAuth",
+      "Wix Bookings API",
+      "Node.js"
+    ],
+    "preview": {
+      "type": "image",
+      "src": "/projects/wix-zoom-integration/banner.jpg",
+      "alt": "Zoom Integration preview"
+    },
+    "liveUrl": "https://dev.wix.com/docs/velo/articles/velo-package-readmes/zoom-integration",
+    "caseStudyUrl": null,
+    "featured": false
+  }
+]

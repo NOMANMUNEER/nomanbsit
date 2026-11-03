@@ -1,0 +1,269 @@
+@import "tailwindcss";
+
+:root {
+  --bg-pitch-black: #08090B;
+  --bg-card: #121519;
+  --bg-card-hover: #191D23;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-glow: rgba(0, 255, 194, 0.3);
+  --accent-cyan: #00FFC2;
+  --accent-teal: #00E5A3;
+  --text-main: #FFFFFF;
+  --text-muted: #94A3B8;
+  --text-dim: #64748B;
+  --contrast-light: #EAEAEA;
+  --contrast-dark: #0D0E10;
+}
+
+body {
+  background-color: var(--bg-pitch-black);
+  color: var(--text-main);
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Background Ambient Glows */
+.ambient-glow-top-right {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(0, 255, 194, 0.12) 0%, rgba(0, 229, 163, 0.03) 40%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.ambient-glow-bottom-left {
+  position: absolute;
+  bottom: -150px;
+  left: -150px;
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(circle, rgba(0, 255, 194, 0.08) 0%, rgba(16, 185, 129, 0.02) 45%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Glassmorphic Navbar */
+.glass-nav {
+  background: rgba(13, 14, 16, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Pulsing Online Dot */
+.pulse-dot {
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--accent-cyan);
+  border-radius: 50%;
+}
+
+.pulse-dot::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 16px;
+  height: 16px;
+  background-color: var(--accent-cyan);
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: pulse-ring 2s infinite ease-out;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+/* Rotating Stamp Badge */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 15s linear infinite;
+}
+
+/* Infinite Marquee Ticker */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08090B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1F242C;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-teal);
+}
+
+/* Card Hover Effects */
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-6px);
+  border-color: rgba(0, 255, 194, 0.35);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 255, 194, 0.08);
+}
+
+/* ============================================================
+   Interactive Technology Marquee (Dual-Track & Axis Toggle)
+   ============================================================ */
+:root {
+  --tech-gap: 1.25rem;
+  --tech-duration: 38s;
+  --tech-scroll-start: 0;
+  --tech-scroll-end: calc(-100% - var(--tech-gap));
+}
+
+.tech-marquee-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.tech-marquee-wrapper--vertical {
+  flex-direction: row !important;
+  justify-content: center;
+  height: 480px;
+  overflow: hidden;
+}
+
+.tech-marquee {
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--tech-gap);
+  padding: 0.5rem 0;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 12%,
+    rgba(0, 0, 0, 1) 88%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 12%,
+    rgba(0, 0, 0, 1) 88%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.tech-marquee__group {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: var(--tech-gap);
+  min-width: 100%;
+  animation: tech-scroll-x var(--tech-duration) linear infinite;
+  will-change: transform;
+}
+
+.tech-marquee:hover .tech-marquee__group {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tech-marquee__group {
+    animation-play-state: paused !important;
+  }
+}
+
+.tech-marquee--vertical {
+  flex-direction: column;
+  height: 100%;
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 12%,
+    rgba(0, 0, 0, 1) 88%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 12%,
+    rgba(0, 0, 0, 1) 88%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.tech-marquee--vertical .tech-marquee__group {
+  flex-direction: column;
+  min-width: auto;
+  min-height: 100%;
+  animation-name: tech-scroll-y;
+}
+
+.tech-marquee--reverse .tech-marquee__group {
+  animation-direction: reverse;
+  animation-delay: -3s;
+}
+
+@keyframes tech-scroll-x {
+  from {
+    transform: translateX(var(--tech-scroll-start));
+  }
+  to {
+    transform: translateX(var(--tech-scroll-end));
+  }
+}
+
+@keyframes tech-scroll-y {
+  from {
+    transform: translateY(var(--tech-scroll-start));
+  }
+  to {
+    transform: translateY(var(--tech-scroll-end));
+  }
+}
+

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "wix-velo",
+    "label": "Wix Velo Solutions"
+  },
+  {
+    "id": "auth-security",
+    "label": "Auth & Security"
+  },
+  {
+    "id": "cloud-data",
+    "label": "Cloud & Databases"
+  },
+  {
+    "id": "crm-marketing",
+    "label": "CRM & Automation"
+  },
+  {
+    "id": "ecommerce-logistics",
+    "label": "E-Commerce & Logistics"
+  },
+  {
+    "id": "api-integrations",
+    "label": "APIs & Webhooks"
+  },
+  {
+    "id": "website-design",
+    "label": "Website Design & UI/UX"
+  }
+]
